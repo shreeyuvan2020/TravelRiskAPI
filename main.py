@@ -128,9 +128,6 @@ async def create_report(request: MultipleTravelRequest):
     for destination in request.destinations:
         risk_info.append(get_weather_risk(destination.season, destination.county, destination.state))
     return {"custom_report":risk_info}
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
 
 
     
