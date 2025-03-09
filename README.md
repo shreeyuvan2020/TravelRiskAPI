@@ -54,12 +54,12 @@ Example Usage:
 Get risk for a specific location:
 
 Bash
-curl [http://127.0.0.1:8000/weather_risk/Los%20Angeles/CA/summer](http://127.0.0.1:8000/weather_risk/Los%20Angeles/CA/summer)
+curl [https://yuvalikesstonks.hackclub.app/weather_risk/Los%20Angeles/CA/summer](https://yuvalikesstonks.hackclub.app/weather_risk/Los%20Angeles/CA/summer)
  Get all counties:
 
 Bash
-curl [http://127.0.0.1:8000/counties](http://127.0.0.1:8000/counties)
+curl [https://yuvalikesstonks.hackclub.app/counties](https://yuvalikesstonks.hackclub.app/counties)
  Get custom travel risks for multiple destinations:
 
 Bash
-curl -X POST -H "Content-Type: application/json" -d '{"destinations": [{"county": "Los Angeles", "state": "CA", "season": "summer"}, {"county": "New York", "state": "NY", "season": "winter"}]}' [http://127.0.0.1:8000/custom_travel_risks](http://127.0.0.1:8000/custom_travel_risks)
+curl -X POST -H "Content-Type: application/json" -d '{"destinations": [{"county": "Los Angeles", "state": "CA", "season": "summer"}, {"county": "New York", "state": "NY", "season": "winter"}]}' [https://yuvalikesstonks.hackclub.app/custom_travel_risks](https://yuvalikesstonks.hackclub.app/custom_travel_risks)
